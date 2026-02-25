@@ -1,0 +1,27 @@
+{
+  "name": "bolsoys",
+  "version": "1.0.0",
+  "description": "web application for bolsoys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinsgithub3/bolsoys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/justinsgithub3/bolsoys/issues"
+  },
+  "homepage": "https://github.com/justinsgithub3/bolsoys#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.998.0",
+    "@aws-sdk/s3-request-presigner": "^3.998.0",
+    "express": "^5.2.1"
+  }
+}
