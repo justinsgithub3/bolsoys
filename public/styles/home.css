@@ -2,9 +2,19 @@
     margin: 0; /* Removes the default white border around the page */
   }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .test-logo {
     width: 100vw;
     display: block;
     height: auto;
   }
   
+.top-logo {
+    width: 60px;
+    height: auto;
+}
