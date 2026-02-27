@@ -20,17 +20,17 @@ const s3Client = new S3Client({
 // if error occurs, an empty array will be returned
 export async function getAllDrawings(){
   try {
-    // List all objects under 'nutrition/' prefix
+    // List all objects under 'drawings/' prefix
     const listCommand = new ListObjectsV2Command({
       Bucket: BUCKET_NAME,
-      Prefix: "nutrition/",
+      Prefix: "drawings/",
     });
 
     const listResponse = await s3Client.send(listCommand);
 
     // this is reversed so the drawings are loaded from the most recent first
     const objects = (listResponse.Contents || [])
-      .filter(item => item.Key !== "nutrition/") 
+      .filter(item => item.Key !== "drawings/") 
       .reverse();
 
     const selectedObjects = objects.slice(0);
