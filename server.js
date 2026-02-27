@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 import logger from './middleware/logger.js';
 import drawings from './routes/drawings.js';
 
-
 // Get the current filename and directory path
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
