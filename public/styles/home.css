@@ -8,10 +8,17 @@
   flex-direction: row;
 }
 
-.test-logo {
-    width: 100vw;
-    display: block;
-    height: auto;
+.logos {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  flex: 1; 
+  max-width: 33.33%;
+  height: auto;
+  margin: 10px;
   }
   
 .top-logo {

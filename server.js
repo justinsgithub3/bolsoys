@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import logger from './middleware/logger.js';
 import drawings from './routes/drawings.js';
+import displays from './routes/displays.js';
 
 // Get the current filename and directory path
 const __filename = fileURLToPath(import.meta.url);
@@ -28,9 +29,12 @@ const port = process.env.PORT || 8080;
 // routes in this middlware regard creating, reading, updating, and deleting images.
 app.use('/api/drawings', drawings);
 
-// Home page
-app.get(['/home', '/'], (request, response) => {
-  response.redirect('/views/home.html');
+// routes in this middlware regard general flow
+app.use('/displays', displays);
+
+// redirect this to make /displays the default
+app.get(['/'], (request, response) => {
+  response.redirect('/displays');
 });
 
 app.listen(port, () => {
