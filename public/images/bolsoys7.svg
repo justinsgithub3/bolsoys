@@ -2,53 +2,25 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="146.86713mm"
+   height="27.625168mm"
+   viewBox="0 0 146.86713 27.625168"
    version="1.1"
    id="svg1"
-   sodipodi:docname="bolsoys7.svg"
-   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
-   inkscape:export-filename="bolsoys7.svg"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="0.63668752"
-     inkscape:cx="149.99509"
-     inkscape:cy="443.70274"
-     inkscape:window-width="1712"
-     inkscape:window-height="954"
-     inkscape:window-x="0"
-     inkscape:window-y="35"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-8.4275105,-24.358081)">
     <g
        id="g1"
        transform="matrix(0,0.84974688,-0.89388992,0,318.11958,-57.641295)">
       <path
          id="rect1-90-9-2-0-1"
          style="stroke-width:0.79481"
-         d="m 96.498589,182.17969 6.807531,-0.0129 c 0,0 -3.3048,4.21083 -3.306946,5.75156 -0.662648,1.59723 -0.376763,2.75809 0.772666,3.73819 -0.27057,1.89091 0.47675,2.43749 1.84855,2.65814 0.55314,2.10676 1.03181,2.18892 2.88825,2.04848 0.58241,2.01052 1.39337,2.16057 3.1681,1.56542 0.97406,1.4368 2.13153,1.68401 3.34353,0.99671 0.74462,1.57795 2.54088,0.95021 3.01342,0.34827 1.23365,0.50663 2.38093,-0.60929 2.38093,-0.60929 v 3.38565 H 96.498589 Z"
-         sodipodi:nodetypes="ccccccccccccc" />
+         d="m 96.498589,182.17969 6.807531,-0.0129 c 0,0 -3.3048,4.21083 -3.306946,5.75156 -0.662648,1.59723 -0.376763,2.75809 0.772666,3.73819 -0.27057,1.89091 0.47675,2.43749 1.84855,2.65814 0.55314,2.10676 1.03181,2.18892 2.88825,2.04848 0.58241,2.01052 1.39337,2.16057 3.1681,1.56542 0.97406,1.4368 2.13153,1.68401 3.34353,0.99671 0.74462,1.57795 2.54088,0.95021 3.01342,0.34827 1.23365,0.50663 2.38093,-0.60929 2.38093,-0.60929 v 3.38565 H 96.498589 Z" />
     </g>
     <g
        id="g9"
