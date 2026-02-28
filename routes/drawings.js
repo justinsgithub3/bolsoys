@@ -1,5 +1,5 @@
 import express from 'express';
-import { getDrawings } from '../controllers/drawingController.js'
+import { getDrawings, createDrawing } from '../controllers/drawingController.js'
 import multer from 'multer';
 
 // Choose storage type
@@ -12,6 +12,6 @@ const router = express.Router();
 router.get('/', getDrawings);
 
 // POST new image to s3 bucket
-//router.post('/', upload.single('form-drawing'), createDrawing);
+router.post('/', upload.single('form-drawing'), createDrawing);
 
 export default router;
