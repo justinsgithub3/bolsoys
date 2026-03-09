@@ -1,4 +1,7 @@
 let content = document.querySelector('.main-content');
+const modal = document.getElementById('drawing-modal');
+const modalImg = document.getElementById('modal-img');
+
 
 async function showAllDrawings() {
     try {
@@ -16,6 +19,9 @@ async function showAllDrawings() {
             drwgEle.setAttribute('src', thisDrawing);
             drwgEle.setAttribute('class', "drawing")
 
+            // rename this ****
+            addClickToEnlarge(drwgEle, thisDrawing);
+
             // only have 1 of the 2 block below execute!
 
             // adds drawing as last
@@ -29,8 +35,25 @@ async function showAllDrawings() {
     }
 }
 
+// close the enlarged image
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.close();
+});
+
+
+function addClickToEnlarge(element, url) {
+    const modal = document.getElementById('drawing-modal');
+    const modalImg = document.getElementById('modal-img');
+
+    element.style.cursor = "pointer"; // Visual cue that it's clickable
+    
+    element.addEventListener('click', () => {
+        modalImg.src = url;
+        modal.showModal();
+    });
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
-    console.log('hello from js page!');
     // initial render goes to gallery
     showAllDrawings();
 });
