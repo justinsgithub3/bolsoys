@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "start": "node server.js",
     "local": "node --watch --env-file=.env server.js"
   },
   "repository": {
