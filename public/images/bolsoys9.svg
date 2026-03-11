@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="93.486008mm"
+   height="93.486mm"
+   viewBox="0 0 93.486008 93.486"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-73.025002,-90.091172)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.64477;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-90-9-2-0-41"
+       width="93.486"
+       height="93.486"
+       x="73.025002"
+       y="90.091164" />
+    <g
+       id="g13"
+       transform="matrix(6.1759609,0,0,6.1759609,-142.38464,-689.03104)">
+      <path
+         style="font-weight:bold;font-size:13.2459px;font-family:'Bailsun Serif';-inkscape-font-specification:'Bailsun Serif, Bold';fill:#ffffff;stroke-width:0.79481"
+         d="m 46.118433,135.44106 c 0,-1.3931 -1.061956,-2.07824 -3.026003,-2.07824 v -0.0228 c 1.758507,-0.0457 2.557829,-0.63946 2.557829,-1.73567 0,-1.07338 -0.902092,-1.72425 -3.06026,-1.72425 h -3.813906 v 0.13702 c 0.628039,0 0.970605,0.28547 0.970605,1.15331 v 5.10424 c 0,0.86783 -0.342566,1.15331 -0.970605,1.15331 v 0.13702 h 3.939514 c 2.34087,0 3.402826,-0.69655 3.402826,-2.12391 z"
+         id="path4" />
+      <path
+         style="font-weight:bold;font-size:13.2459px;font-family:'Bailsun Serif';-inkscape-font-specification:'Bailsun Serif, Bold';fill:#000000;stroke-width:0.79481"
+         d="m 43.606279,131.63857 c 0,1.11905 -0.6052,1.58723 -1.552967,1.58723 h -0.445336 v -3.11736 h 0.479593 c 1.01628,0 1.51871,0.4796 1.51871,1.53013 z"
+         id="path3" />
+      <path
+         style="font-weight:bold;font-size:13.2459px;font-family:'Bailsun Serif';-inkscape-font-specification:'Bailsun Serif, Bold';fill:#000000;stroke-width:0.79481"
+         d="m 44.074454,135.56667 c 0,1.22182 -0.593782,1.76992 -1.518711,1.76992 -0.662295,0 -0.947767,-0.28547 -0.947767,-0.89067 v -2.90039 h 0.445336 c 1.347428,0 2.021142,0.52526 2.021142,2.02114 z"
+         id="text5-9-1-81-7-2" />
+    </g>
+  </g>
+</svg>
