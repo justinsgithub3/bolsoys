@@ -7,6 +7,35 @@
 
 .main-content {
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   /* Centers the group of images */
+  align-items: flex-start;   /* Aligns the tops of the images in each row */
+  align-content: flex-start; /* Keeps the rows from spreading out vertically */
+  padding: 20px;
+  gap: 15px;                 
+}
+
+.main-content img {
+  /* Calculation for roughly 5 per row (20%) */
+  width: calc(20% - 20px); 
+  min-width: 150px;          
+
+  /* The "No Stretch/No Crop" Fix */
+  height: auto;              /* Essential: lets the height follow the width */
+  object-fit: contain;       /* Ensures the full image is visible */
+  display: block;            /* Removes the tiny gap at the bottom of images */
+
+  /* The Border */
+  border: 2px solid black;   
+  box-sizing: border-box;    /* Keeps the border inside the 20% width */
+}
+
+.logo {
+  width: 120px; 
+  flex-shrink: 1; 
+  min-width: 0; 
+  height: auto;
 }
 
 .header {
@@ -26,13 +55,6 @@
   align-items: center;
   gap: 15px;
   background-color: rgb(245, 245, 245);
-}
-
-.logo {
-  width: 120px; 
-  flex-shrink: 1; 
-  min-width: 0; 
-  height: auto;
 }
   
 .top-logo {
