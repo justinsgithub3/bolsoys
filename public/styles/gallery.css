@@ -9,26 +9,26 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;           
-  justify-content: center;   /* Centers the group of images */
-  align-items: flex-start;   /* Aligns the tops of the images in each row */
-  align-content: flex-start; /* Keeps the rows from spreading out vertically */
+  justify-content: center;
+  align-items: flex-start;  
+  align-content: flex-start;
   padding: 20px;
   gap: 15px;                 
 }
 
 .main-content img {
-  /* Calculation for roughly 5 per row (20%) */
+
   width: calc(20% - 20px); 
   min-width: 150px;          
 
-  /* The "No Stretch/No Crop" Fix */
-  height: auto;              /* Essential: lets the height follow the width */
-  object-fit: contain;       /* Ensures the full image is visible */
-  display: block;            /* Removes the tiny gap at the bottom of images */
+
+  height: auto; 
+  object-fit: contain;
+  display: block;  
 
   /* The Border */
   border: 2px solid black;   
-  box-sizing: border-box;    /* Keeps the border inside the 20% width */
+  box-sizing: border-box; 
 }
 
 .logo {
@@ -70,13 +70,13 @@
 }
 
 #drawing-modal::backdrop {
-    background: rgba(0, 0, 0, 0.85); /* Smooth dark overlay */
+    background: rgba(0, 0, 0, 0.85); 
 }
 
 #modal-img {
-    /* Change 45vw to a responsive range */
-    width: 90vw;        /* Default for mobile: 90% of screen width */
-    max-width: 800px;   /* Cap it for desktop screens */
+
+    width: 90vw;  
+    max-width: 800px;  
     height: auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     display: block;
