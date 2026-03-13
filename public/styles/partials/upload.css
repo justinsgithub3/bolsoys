@@ -1,0 +1,12 @@
+input {
+    border: 2px solid black;  
+}
+
+.upload {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  gap: 15px;   
+}
+  

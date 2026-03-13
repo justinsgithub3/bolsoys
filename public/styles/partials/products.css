@@ -6,6 +6,6 @@
 }
 
 .product {
-    border: 2px solid brown;  
-    width: 100%;
+    width: 40%; /* Adjust this value to your liking */
+    height: auto;
 }

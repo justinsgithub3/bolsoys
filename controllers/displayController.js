@@ -13,16 +13,18 @@ export const getGalleryDisplay = async (req, res, next) => {
     } catch (e) {
         return res
             .status(500)
-            .json({ msg: `No album page found...`});
+            .json({ msg: `No gallery page found...`});
     }
 };
-export const getUploadDisplay = async (req, res, next) => {
+
+export const getShopDisplay = async (req, res, next) => {
     try {
-        res.render(path.join(__dirname, '..', 'public', 'views', 'upload.ejs'));
+        res.render(path.join(__dirname, '..', 'public', 'views', 'shop.ejs'));
+
     } catch (e) {
         return res
             .status(500)
-            .json({ msg: `No upload page found...`});
+            .json({ msg: `No shop page found...`});
     }
 };
 

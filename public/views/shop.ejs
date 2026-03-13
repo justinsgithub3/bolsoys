@@ -4,32 +4,27 @@
     <link rel="icon" type="image/svg" href="/images/bolsoys10.svg"/>
     <link rel="apple-touch-icon" type="image/png" href="/images/bolsoys10.png"/>
 
-
-    <link rel="stylesheet" href="/styles/gallery.css"/>
+    <link rel="stylesheet" href="/styles/shop.css"/>
     <!-- partials -->
     <link rel="stylesheet" href="/styles/partials/header.css"/>
-    <link rel="stylesheet" href="/styles/partials/upload.css"/>
+    <link rel="stylesheet" href="/styles/partials/mission.css"/>
+    <link rel="stylesheet" href="/styles/partials/products.css"/>
+    <link rel="stylesheet" href="/styles/partials/sample-gallery.css"/>
     <link rel="stylesheet" href="/styles/partials/footer.css"/>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolsoy's | gallery</title>
+    <title>Bolsoy's | shop</title>
 </head>
 <body>
     <%- include ("./partials/header.ejs") %>
 
-    <%- include ("./partials/upload.ejs") %>
+    <p id="temporary-placeholder">Delicious chocolates here</p>
 
-    <div class="main-content"></div>
+    <div class="main-content">
+        <p>Products will be displayed here!</p>
+    </div>
 
     <%- include ("./partials/footer.ejs") %>
-
-    <script type="module" src="/assets/js/galleryJs.js"></script>
-
-    <dialog id="drawing-modal">
-        <img src="" alt="Enlarged drawing" id="modal-img">
-    </dialog>
-
-
 </body>
 </html>
