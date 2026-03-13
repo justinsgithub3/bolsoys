@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 // get all images
 export const getGalleryDisplay = async (req, res, next) => {
     try {
-        res.sendFile(path.join(__dirname, '..', 'public', 'views', 'gallery.html'));
+        res.render(path.join(__dirname, '..', 'public', 'views', 'gallery.ejs'));
 
     } catch (e) {
         return res
@@ -18,7 +18,7 @@ export const getGalleryDisplay = async (req, res, next) => {
 };
 export const getUploadDisplay = async (req, res, next) => {
     try {
-        res.sendFile(path.join(__dirname, '..', 'public', 'views', 'upload.html'));
+        res.render(path.join(__dirname, '..', 'public', 'views', 'upload.ejs'));
     } catch (e) {
         return res
             .status(500)
@@ -28,7 +28,7 @@ export const getUploadDisplay = async (req, res, next) => {
 
 export const getHomeDisplay = async (req, res, next) => {
     try {
-        res.sendFile(path.join(__dirname, '..', 'public', 'views', 'home.html'));
+        res.render(path.join(__dirname, '..', 'public', 'views', 'home.ejs'));
     } catch (e) {
         return res
             .status(500)

@@ -1,0 +1,11 @@
+.products {
+    border: 2px solid black;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product {
+    border: 2px solid brown;  
+    width: 100%;
+}

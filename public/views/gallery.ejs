@@ -3,32 +3,31 @@
 <head>
     <link rel="icon" type="image/svg" href="/images/bolsoys10.svg"/>
     <link rel="apple-touch-icon" type="image/png" href="/images/bolsoys10.png"/>
+
+
     <link rel="stylesheet" href="/styles/gallery.css"/>
+    <!-- partials -->
+    <link rel="stylesheet" href="/styles/partials/header.css"/>
+    <link rel="stylesheet" href="/styles/partials/footer.css"/>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolsoy's | gallery</title>
 </head>
 <body>
-    <header class="header">
-        <p>Welcome to the chocolate shop!</p>
-        <a id="main-anchor" href="/displays/">Go Home</a>
-        <a id="main-anchor" href="/displays/upload">Upload a drawing</a>
-        
-        <img class="top-logo" src="../images/bolsoys3.svg">
-    </header>
+    <%- include ("./partials/header.ejs") %>
 
     <div class="main-content"></div>
 
-    <div class="logos">
-        <img class="logo" src="../images/bolsoys4.svg">
-        <img class="logo" src="../images/bolsoys6.svg">
-        <img class="logo" src="../images/bolsoys7.svg">
-    </div>
+    <%- include ("./partials/footer.ejs") %>
 
     <script type="module" src="/assets/js/galleryJs.js"></script>
 
     <dialog id="drawing-modal">
         <img src="" alt="Enlarged drawing" id="modal-img">
     </dialog>
+
+
 </body>
 </html>

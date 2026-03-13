@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/upload.css"/>
+    <!-- partials -->
+    <link rel="stylesheet" href="/styles/partials/header.css"/>
+    <link rel="stylesheet" href="/styles/partials/footer.css"/>
+
     <title>Bolsoy's | upload</title>
 </head>
 <body>
-    <header class="header">
-        <h1 class="title">Upload Drawing</h1>
-        <div class="buttons">
-            <a id="main-anchor" href="/displays/">Go to Gallery</a>
-        </div>
-    </header>
+    <%- include ("./partials/header.ejs") %>
+
     <div class="main-content">
         <form class="post-form" method="POST" enctype="multipart/form-data" action="/api/drawings">
             <label for="form-drawing" class="camera-label">
@@ -21,9 +23,10 @@
                 <!-- removed  capture="user"  -->
             </label>
         </form>
+        <p>scan your drawing on a computer and upload it to the gallery!</p>
     </div>
 
-    <p>scan your drawing on a computer and upload it to the gallery!</p>
+    <%- include ("./partials/footer.ejs") %>
 
     <script type="module" src="/assets/js/uploadJs.js"></script>
 </body>

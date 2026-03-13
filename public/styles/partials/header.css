@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(245, 245, 245);
+}
+
+.top-logo {
+    width: 60px;
+    height: auto;
+}

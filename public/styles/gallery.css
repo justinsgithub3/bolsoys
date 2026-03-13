@@ -1,4 +1,4 @@
-  body {
+body {
   margin: 0;
   display: flex;
   flex-direction: column; 
@@ -30,38 +30,6 @@
   border: 2px solid black;   
   box-sizing: border-box; 
 }
-
-.logo {
-  width: 120px; 
-  flex-shrink: 1; 
-  min-width: 0; 
-  height: auto;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: rgb(245, 245, 245);
-}
-
-.logos {
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  flex-wrap: nowrap; 
-  justify-content: space-around;
-  align-items: center;
-  gap: 15px;
-  background-color: rgb(245, 245, 245);
-}
-  
-.top-logo {
-    width: 60px;
-    height: auto;
-}
-
 
 #drawing-modal {
     border: none;
