@@ -25,3 +25,13 @@ export const getUploadDisplay = async (req, res, next) => {
             .json({ msg: `No upload page found...`});
     }
 };
+
+export const getHomeDisplay = async (req, res, next) => {
+    try {
+        res.sendFile(path.join(__dirname, '..', 'public', 'views', 'home.html'));
+    } catch (e) {
+        return res
+            .status(500)
+            .json({ msg: `No home page found...`});
+    }
+};
