@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'gyst-bold';
-    src: url('fonts/gyst-bold.woff') format('woff');
+    src: url('../../fonts/gyst-bold.woff2') format('woff2');
 }
 
 .mission {
