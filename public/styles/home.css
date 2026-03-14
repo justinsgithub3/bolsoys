@@ -1,8 +1,6 @@
 @font-face {
-    font-family: 'gyst-regular'; /* Give it any name you like */
-    src: url('fonts/gyst-regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'gyst-regular';
+    src: url('fonts/gyst-regular.woff') format('woff');
 }
 
 
