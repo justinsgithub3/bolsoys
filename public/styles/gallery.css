@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'gyst-regular'; /* Give it any name you like */
+    src: url('fonts/gyst-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+  font-family: 'gyst-regular', sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column; 

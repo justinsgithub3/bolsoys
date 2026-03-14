@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'gyst-bold'; /* Give it any name you like */
+    src: url('fonts/gyst-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .mission {
+    font-family: 'gyst-bold', sans-serif;
     color: red;
+    font-size: 2rem;
 }
