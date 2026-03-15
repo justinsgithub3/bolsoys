@@ -1,17 +1,12 @@
 
-
 @font-face {
-    font-family: 'gyst-bold';
-    src: url('../../fonts/gyst-bold.woff2') format('woff2');
-
     font-family: 'gyst-regular';
-    src: url('../fonts/gyst-regular.woff2') format('woff2');
-
+    src: url('../../fonts/gyst-regular.woff2') format('woff2');
 }
 
 
 .mission {
-    font-family: 'Gyst', sans-serif;
+    font-family: 'gyst-regular', sans-serif;
     font-size: 2rem;
 }
 
@@ -21,5 +16,5 @@
 }
 
 .mission strong {
-    font-weight: 700;
+    font-weight: 900;
 }
