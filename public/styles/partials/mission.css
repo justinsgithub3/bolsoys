@@ -3,9 +3,23 @@
 @font-face {
     font-family: 'gyst-bold';
     src: url('../../fonts/gyst-bold.woff2') format('woff2');
+
+    font-family: 'gyst-regular';
+    src: url('../fonts/gyst-regular.woff2') format('woff2');
+
 }
 
+
 .mission {
-    font-family: 'gyst-bold', sans-serif;
+    font-family: 'Gyst', sans-serif;
     font-size: 2rem;
+}
+
+.mission h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.mission strong {
+    font-weight: 700;
 }

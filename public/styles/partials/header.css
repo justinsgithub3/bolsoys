@@ -1,14 +1,92 @@
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  background-color: rgb(245, 245, 245);
-  padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 50px;
+}
+
+.header > p, 
+.header > a, 
+.header > .links {
+    flex: 1;
+}
+
+.header > p {
+    text-align: left;
+    margin: 0;
+    font-family: 'gyst-regular', sans-serif;
+    font-size: 1.8rem;
+}
+
+.header > a {
+    display: flex;
+    justify-content: center;
 }
 
 .top-logo {
-    width: 80px;
+    width: 120px;
     height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.links a {
+    font-family: 'gyst-regular', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #000;
+    text-transform: lowercase;
+    transition: opacity 0.2s;
+}
+
+.links a:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        /* Reduce padding for a slimmer bar */
+        padding: 10px 20px; 
+        /* Keep everything in a row, but change how they sit */
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    /* 1. Reset the equal-width columns so items only take the space they need */
+    .header > p, 
+    .header > a, 
+    .header > .links {
+        flex: none; 
+    }
+
+    /* 2. Hide the "Welcome" text on mobile to save space */
+    .header > p {
+        display: none;
+    }
+
+    /* 3. Move the logo to the left */
+    .header > a {
+        order: 1; /* Force to first position */
+        justify-content: flex-start;
+    }
+
+    .top-logo {
+        width: 80px; /* Scale down the logo for the bar */
+    }
+
+    /* 4. Keep the links on the right */
+    .links {
+        order: 2;
+        font-size: 1.1rem; /* Shrink font so it doesn't wrap */
+    }
+
+    .links a {
+        font-size: 1.1rem;
+    }
 }
