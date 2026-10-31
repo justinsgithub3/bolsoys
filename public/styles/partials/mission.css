@@ -4,17 +4,36 @@
     src: url('../../fonts/gyst-regular.woff2') format('woff2');
 }
 
-
 .mission {
     font-family: 'gyst-regular', sans-serif;
-    font-size: 2rem;
+    height: 34rem;
+    font-size: 4rem;
+    width: 100%;
+    min-width: 80%;
+    
+    /* Layout centering for the text */
+    display: flex;
+    align-items: center;
+
+
+    /* Background Settings */
+    background-image: url('../../images/design.svg');
+    background-repeat: no-repeat;
+    
+    /* 1. Make the background wider than the div to stretch the lines */
+    /* Width is 180%, Height is auto */
+    background-size: 160% auto; 
+    
+    /* 2. Position: 60% moves the 'illustration' part toward the right, 
+       55% nudges it slightly below the vertical center line of the text */
+    background-position: 80% 50%; 
+    
+    /* Ensure long lines don't cause horizontal scrolling on the page */
+    overflow: hidden; 
 }
 
 .mission h1 {
     font-weight: 400;
     margin: 0;
-}
-
-.mission strong {
-    font-weight: 900;
+    /* Backgrounds are always behind text, so no z-index needed! */
 }
